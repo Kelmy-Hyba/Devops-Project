@@ -1,5 +1,5 @@
 #Java runtime as a parent image
-FROM openjdk:11
+FROM openjdk:17-alpine
 
 #Copy the application JAR file to the container
 COPY target/tpAchatProject-1.0.jar /app/
